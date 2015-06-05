@@ -6531,7 +6531,7 @@ GET /api/v1/watch/services
 |firstTimestamp|the time at which the event was first recorded|false|string (date-time)|
 |involvedObject|object this event is about|true|<<v1.ObjectReference>>|
 |kind|kind of object, in CamelCase; cannot be updated|false|string|
-|lastTimestamp|the time at which the most recent occurance of this event was recorded|false|string (date-time)|
+|lastTimestamp|the time at which the most recent occurrence of this event was recorded|false|string (date-time)|
 |message|human-readable description of the status of this operation|false|string|
 |metadata|standard object metadata; see http://docs.k8s.io/api-conventions.md#metadata|true|<<v1.ObjectMeta>>|
 |reason|short, machine understandable string that gives the reason for the transition into the object's current status|false|string|
